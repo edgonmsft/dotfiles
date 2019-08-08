@@ -93,6 +93,7 @@ alias ll='ls -l'
 #alias l='ls -CF'
 alias serve='npx http-server .'
 alias party='npx nyancat'
+alias gpom='git push origin master'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -122,3 +123,9 @@ if [[ -f $THEME ]]; then
     export DEFAULT_USER=`whoami`
     source $THEME
 fi
+
+gac() {
+    #do things with parameters like $1 such as
+    git add .
+    git commit -m "$1"
+}
