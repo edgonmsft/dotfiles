@@ -1,2 +1,2 @@
-sudo unlink ~.bashrc
+sudo unlink ~/.bashrc
 ln -sv ~/.dotfiles/.bashrc ~
