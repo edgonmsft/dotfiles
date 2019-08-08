@@ -1,1 +1,1 @@
-$ ln -sv ~/.dotfiles/.bashrc ~
+ln -sv ~/.dotfiles/.bashrc ~
