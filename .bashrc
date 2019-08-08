@@ -117,7 +117,7 @@ fi
 PS1='\[]0;\u: \w\]\[[01;32m\]\u\[[00m\]:\[[01;34m\]\w\[[00m\]$ '
 
 # agnoster
-export THEME=$HOME/.bash/themes/agnoster-bash/agnoster.bash
+export THEME=$HOME/.dotfiles/.bash/themes/agnoster-bash/agnoster.bash
 if [[ -f $THEME ]]; then
     export DEFAULT_USER=`whoami`
     source $THEME
