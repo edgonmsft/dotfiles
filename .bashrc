@@ -94,6 +94,8 @@ alias ll='ls -l'
 alias serve='npx http-server .'
 alias party='npx nyancat'
 alias gpom='git push origin master'
+alias cls='clear'
+alias del='rm'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
